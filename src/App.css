@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  background-color: #7ea5b9;
+  width: 100vw;
+  height: 100vh;
+}
+.navbar{
+  background-color: rgb(90, 124, 143);
+  border-bottom: solid black 1px;
+  font-family: cursive;
+  text-align: center;
+  padding: 25px;
+  color: rgb(6, 5, 20); 
+}
+.title{
+  font-weight: 600;
+  font-size: 5.5vh;
+  
+}
+.container{
+  background-color: rgb(246, 164, 164);
+  border: black solid .1px;
+  border-radius: 10px;
+  display: inline-block;
+  width: 60vh;
+  margin-top: 2.5vh;
+}
+.subheading{
+  font-family: cursive;
+  font-size: 3.5vh;
+  font-weight: 700;
+  padding: 15px 8px 15px 15px;
+}
+.textadd{
+  font-family: cursive;
+  border: black solid 1px;
+  border-radius: 8px;
+  padding: 3px;
+  /* margin-bottom: 2.5vh; */
+  width: 40vh;
+}
+.button{
+  font-family: cursive;
+  border: black solid 2px;
+  border-radius: 8px ;
+  font-weight: 800;
+  padding: 4px;
+  margin-left: 10px;
+}
+.Checkboxtext{
+  font-family: cursive;
+}
+.checkboxalign{
+  display: flex;
+  align-items: center;
+  margin :2.5vh 5px 2.5vh 5px ;
+}
+.sbox2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon{
+  font-size: 3.5vh;
+  color: rgb(1, 0, 34);
+}
+.checkbox, #checkbox2{
+  margin: 5px;
+  height: 2.5vh;
+  width: 2.5vh;
+}
+.Checkboxtext{
+  font-size: 2.5vh;
+}
+.tasktitle{
+  font-family: cursive;
+  font-size: 2.5vh;
+  color: rgb(24, 22, 47);
+  margin: 5px 2px 15px 2px;
+  font-weight: 600;
+  border-top: 3px solid black ;
+  border-bottom: 3px solid black ;
+}
+.tasks{
+  font-family: cursive;
+  font-size: 2.5vh;
+  margin: 5px ;
+}
+.addtasks{
+  font-family: cursive;
+  display: flex;
+  margin: 8px 0 8px 0;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+#taskcontent{
+  font-family: cursive;
+  font-size: 2.5vh;
+  margin: 2px;
+  padding-right: 15px;
+}
+.cross{
+  border: 1px solid black;
+  border-radius: 20px;
+  
+}
+@media only screen and (max-width: 700px) {
+  .textadd{
+    width: 35vh;
+  }
+  .container{
+    width: 45vh;
+  }
+  .subheading{
+    font-family: cursive;
+    font-size: 2.5vh;
+    font-weight: 700;
+    padding: 15px;
+  }
+}
